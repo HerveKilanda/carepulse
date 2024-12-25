@@ -9,7 +9,7 @@
     "baseUrl": ".", // Définit la racine de ton projet
     "paths": {
       "@/*": ["./app/*"] // Alias pour raccourcir les imports
-    }
+    },
   },
   "include": [
     "**/*.ts",

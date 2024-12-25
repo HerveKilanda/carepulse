@@ -13,7 +13,7 @@ export class AuthentificationController {
       nom: "Kilanda", prenom: "Herve", age: 25
     }
     const parsedUser = userSchema.parse(userData);
-    return userData
+    return parsedUser
   }
 
   
